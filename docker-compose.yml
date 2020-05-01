@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  api:
+    container_name: sankey-api
+    image: hub.docker.com/sample-api
+    ports:
+      - "8080:8080"
